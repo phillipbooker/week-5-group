@@ -1,13 +1,9 @@
-/* body {
-    position: relative;
-} */
-
-/* .container {
-    position: absolute;
+.container {
+    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-} */
+    transform: translate(-35%, -50%);
+}
 
 .calendar-box{
     border: solid 1px black;
