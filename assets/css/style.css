@@ -1,7 +1,20 @@
-.off-day{
-    color: rgb(184, 184, 184);
-}
+
 
 .day-head{
+    margin: 10px;
+    text-align: center;
     font-weight: bold;
+}
+
+.day {
+    border: solid 1px black;
+    padding: 20px 0;
+    margin: 10px;
+    text-align: center;
+    background-color: blue;
+}
+
+.off-day{
+    color: rgb(184, 184, 184);
+    background-color: red;
 }
