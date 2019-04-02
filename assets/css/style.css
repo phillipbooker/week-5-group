@@ -1,18 +1,30 @@
+.calendar-box{
+    border: solid 1px black;
+}
+
 .day-head{
-    margin: 10px;
+    margin: 5px;
     text-align: center;
     font-weight: bold;
 }
 
 .day {
-    border: solid 1px black;
     padding: 20px 0;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(115, 115, 255);
+}
+
+.day:hover{
+    background-color: rgb(28, 28, 192);
+    color: white;
 }
 
 .off-day{
     color: rgb(184, 184, 184);
-    background-color: red;
+    background-color: rgb(243, 97, 97);
+}
+
+.off-day:hover{
+    background-color: rgb(243, 97, 97);
 }
